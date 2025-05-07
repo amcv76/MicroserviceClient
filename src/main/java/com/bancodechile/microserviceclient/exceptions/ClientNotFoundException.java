@@ -1,0 +1,10 @@
+package com.bancodechile.microserviceclient.exceptions;
+
+public class ClientNotFoundException extends RuntimeException{
+    public ClientNotFoundException(String message){
+        super(message);
+    }
+
+}
+
+
